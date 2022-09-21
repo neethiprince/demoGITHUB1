@@ -24,6 +24,8 @@ class TestHomePage(Baseclass):
         homepage.submitForm().click()
 
         alertText = homepage.getSuccessMessage().text
+        print("this is the first update by IST timezone guy")
+        print("first commit")
 
         assert ("Success" in alertText)
         self.driver.refresh()
