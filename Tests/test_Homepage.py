@@ -26,6 +26,10 @@ class TestHomePage(Baseclass):
         alertText = homepage.getSuccessMessage().text
         print("this is the first update by IST timezone guy")
         print("first commit")
+        print("1")
+        print("2")
+        print("3")
+        print("4")
 
         assert ("Success" in alertText)
         self.driver.refresh()
